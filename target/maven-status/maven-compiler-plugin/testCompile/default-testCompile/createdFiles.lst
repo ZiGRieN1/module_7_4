@@ -1,4 +1,6 @@
-com\example\module7_3\pages\PricingIndividualPage.class
-com\example\module7_3\tests\BaseTest.class
-com\example\module7_3\pages\CookieSettingsPage.class
-com\example\module7_3\tests\PricingIndividualTest.class
+com\example\module7_5\pages\PricingIndividualPage.class
+com\example\module7_5\tests\PricingIndividualTest.class
+com\example\module7_5\tests\BaseTest.class
+com\example\module7_5\pages\CookieSettingsPage.class
+com\example\module7_5\AllureLogger.class
+com\example\module7_5\AllureAttachmentManager.class

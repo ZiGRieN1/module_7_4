@@ -1,6 +1,6 @@
-package com.example.module7_4.pages;
+package com.example.module7_5.pages;
 
-import com.example.module7_4.AllureLogger;
+import com.example.module7_5.AllureLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,7 +26,7 @@ public class CookieSettingsPage {
     }
 
     public boolean displayButton() {
-        log.info("Проверка, что кнопка принятия куки отображается");
+        log.infoWithScreenshot("Проверка, что кнопка принятия куки отображается");
         return buttonAcceptAll.isDisplayed();
     }
 

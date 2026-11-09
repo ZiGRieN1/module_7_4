@@ -1,14 +1,12 @@
-package com.example.module7_4.pages;
+package com.example.module7_5.pages;
 
-import com.example.module7_4.AllureLogger;
-import io.qameta.allure.Step;
+import com.example.module7_5.AllureLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class PricingIndividualPage {
@@ -37,17 +35,17 @@ public class PricingIndividualPage {
     }
 
     public boolean enabledSwitchMonthly() {
-        log.info("Проверка, что можем переключиться на страницу месячных подписок");
+        log.infoWithScreenshot("Проверка, что можем переключиться на страницу месячных подписок");
         return switchMonthly.isEnabled();
     }
 
     public void clickSwitchMonthly() {
         switchMonthly.click();
-        log.info("Произошёл клик на страницу месячных подписок");
+        log.infoWithScreenshot("Произошёл клик на страницу месячных подписок");
     }
 
     public void clickTabStudents() {
-        log.info("Переходим на вкладку с информацией для студентов и учителей");
+        log.infoWithScreenshot("Переходим на вкладку с информацией для студентов и учителей");
         tabStudents.click();
     }
 

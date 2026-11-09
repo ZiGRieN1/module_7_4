@@ -1,8 +1,8 @@
-package com.example.module7_4.tests;
+package com.example.module7_5.tests;
 
 
-import com.example.module7_4.pages.CookieSettingsPage;
-import com.example.module7_4.pages.PricingIndividualPage;
+import com.example.module7_5.pages.CookieSettingsPage;
+import com.example.module7_5.pages.PricingIndividualPage;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
-public class PricingIndividualTest extends com.example.module7_3.tests.BaseTest {
+public class PricingIndividualTest extends BaseTest {
 
     private WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
     private PricingIndividualPage pricingIndividualPage = new PricingIndividualPage(getDriver(), wait);
