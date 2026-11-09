@@ -26,7 +26,7 @@ public class CookieSettingsPage {
     }
 
     public boolean displayButton() {
-        log.infoWithScreenshot("Проверка, что кнопка принятия куки отображается");
+        log.info("Проверка, что кнопка принятия куки отображается");
         return buttonAcceptAll.isDisplayed();
     }
 

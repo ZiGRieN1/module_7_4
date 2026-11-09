@@ -35,17 +35,17 @@ public class PricingIndividualPage {
     }
 
     public boolean enabledSwitchMonthly() {
-        log.infoWithScreenshot("Проверка, что можем переключиться на страницу месячных подписок");
+        log.info("Проверка, что можем переключиться на страницу месячных подписок");
         return switchMonthly.isEnabled();
     }
 
     public void clickSwitchMonthly() {
         switchMonthly.click();
-        log.infoWithScreenshot("Произошёл клик на страницу месячных подписок");
+        log.info("Произошёл клик на страницу месячных подписок");
     }
 
     public void clickTabStudents() {
-        log.infoWithScreenshot("Переходим на вкладку с информацией для студентов и учителей");
+        log.info("Переходим на вкладку с информацией для студентов и учителей");
         tabStudents.click();
     }
 
